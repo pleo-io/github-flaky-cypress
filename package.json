@@ -1,0 +1,18 @@
+{
+  "name": "github-flaky-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^15.6.1",
+    "octokit": "^1.0.5",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0"
+  },
+  "scripts": {
+    "download": "ts-node src/download.ts",
+    "report": "ts-node src/report.ts"
+  }
+}
