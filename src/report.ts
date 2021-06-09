@@ -1,7 +1,7 @@
 import { getAnnotations } from "./storage";
 
 function getTitle(annotation:any) {
-    return annotation.title.split('.')[1]
+    return annotation.title
 }
 
 async function report() {
